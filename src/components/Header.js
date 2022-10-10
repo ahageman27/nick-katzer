@@ -9,14 +9,14 @@ const Header = ({
   showContactHandler,
 }) => {
   return (
-    <Navbar bg="dark" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="sm">
       <Container>
         <Navbar.Brand>Nick Katzer</Navbar.Brand>
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Nav>
           <Nav.Link onClick={showAboutMeHandler}>About Me</Nav.Link>
           <Nav.Link onClick={showResumeHandler}>Resume</Nav.Link>
           <Nav.Link onClick={showContactHandler}>Contact</Nav.Link>
-        </Navbar.Collapse>
+        </Nav>
       </Container>
     </Navbar>
   );
