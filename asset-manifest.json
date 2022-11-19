@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/nick-katzer/static/css/main.75f10be3.css",
+    "main.js": "/nick-katzer/static/js/main.353b907c.js",
+    "static/media/denver-skyline.jpg": "/nick-katzer/static/media/denver-skyline.d5459f5558fcf0ec8c6a.jpg",
+    "static/media/NickolasKatzerResume.jpg": "/nick-katzer/static/media/NickolasKatzerResume.1bf1bde69eb1ffafc8e2.jpg",
+    "static/media/construction-crew.jpg": "/nick-katzer/static/media/construction-crew.f470fd5f94933756378e.jpg",
+    "static/media/empty-land.jpg": "/nick-katzer/static/media/empty-land.e22ab3d7a096d2a1c663.jpg",
+    "static/media/NickolasKatzerResume.pdf": "/nick-katzer/static/media/NickolasKatzerResume.b9e8c9d7812a98adc178.pdf",
+    "static/media/million-dollar-home.jpg": "/nick-katzer/static/media/million-dollar-home.2a8c83b56573d5ef06da.jpg",
+    "static/media/nick-katzer-profile-pic.jpg": "/nick-katzer/static/media/nick-katzer-profile-pic.6e74839e3a0a679cded0.jpg",
+    "index.html": "/nick-katzer/index.html",
+    "main.75f10be3.css.map": "/nick-katzer/static/css/main.75f10be3.css.map",
+    "main.353b907c.js.map": "/nick-katzer/static/js/main.353b907c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75f10be3.css",
+    "static/js/main.353b907c.js"
+  ]
+}
