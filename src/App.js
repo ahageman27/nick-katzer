@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
+import background from "./images/denver-skyline.jpg";
 
 function App() {
   const [state, setState] = useState({
@@ -37,6 +38,7 @@ function App() {
 
   return (
     <>
+      <img id="backgroundImage" src={background} />
       <Header
         showAboutMeHandler={showAboutMeHandler}
         showResumeHandler={showResumeHandler}

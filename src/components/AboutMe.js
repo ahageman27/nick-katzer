@@ -1,13 +1,17 @@
 import Container from "react-bootstrap/Container";
 import { Stack } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
+import ProfilePic from "../images/nick-katzer-profile-pic.jpg";
+import constructionCrew from "../images/construction-crew.jpg";
+import millionDollar from "../images/million-dollar-home.jpg";
+import emptyLand from "../images/empty-land.jpg"
 
 const AboutMe = (props) => {
   return (
     <Container fluid>
-      <Stack gap={4} className="">
-        <Card>
-          <Card.Img variant="top" src="../images/nick-katzer-profile-pic.jpg" />
+      <Stack gap={4} className="my-3">
+        <Card className="mx-auto" style={{ width: "70rem" }}>
+          <Card.Img variant="top" src={ProfilePic} />
           <Card.Body>
             <Card.Title>Nick Katzer</Card.Title>
             <Card.Text>
@@ -25,6 +29,16 @@ const AboutMe = (props) => {
               within 24 hours.
             </Card.Text>
           </Card.Body>
+        </Card>
+
+        <Card className="mx-auto" style={{ width: "50rem" }}>
+          <Card.Img variant="top" src={constructionCrew} />
+        </Card>
+        <Card className="mx-auto" style={{ width: "50rem" }}>
+          <Card.Img variant="top" src={millionDollar} />
+        </Card>
+        <Card className="mx-auto" style={{ width: "50rem" }}>
+          <Card.Img variant="top" src={emptyLand} />
         </Card>
       </Stack>
     </Container>
