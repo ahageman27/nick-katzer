@@ -7,7 +7,7 @@ const AboutMe = (props) => {
     <Container fluid>
       <Stack gap={4} className="">
         <Card>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img variant="top" src="../images/nick-katzer-profile-pic.jpg" />
           <Card.Body>
             <Card.Title>Nick Katzer</Card.Title>
             <Card.Text>
@@ -20,7 +20,7 @@ const AboutMe = (props) => {
               estate since 1996.
             </Card.Text>
             <Card.Text>
-              Id love to hear from you. If you have any questions about me,
+              I'd love to hear from you. If you have any questions about me,
               please fill out the contact form and I will get back to you in
               within 24 hours.
             </Card.Text>
